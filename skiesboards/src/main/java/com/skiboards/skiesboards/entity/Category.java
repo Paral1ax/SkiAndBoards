@@ -21,4 +21,6 @@ public class Category {
     @SequenceGenerator(name = SEQ_NAME, sequenceName = SEQ_NAME, allocationSize = 1)
     private Long id;
     private String title;
+    private String iconFamily;
+    private String iconName;
 }
